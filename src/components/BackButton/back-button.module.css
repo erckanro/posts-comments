@@ -1,0 +1,34 @@
+.back {
+  display: flex;
+  cursor: pointer;
+  padding: 30px 0;
+  align-items: center;
+  font-size: 21px;
+  .text {
+    margin-left: 15px;
+  }
+}
+
+.back:hover {
+  .icon {
+    animation: shake 0.8s infinite;
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-10px);
+  }
+  50% {
+    transform: translateX(10px);
+  }
+  75% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

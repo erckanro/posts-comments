@@ -1,0 +1,22 @@
+.bar-chart {
+  font-family: Arial, sans-serif;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: #4a90e2;
+}
+
+.axis text {
+  font-size: 12px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}

@@ -1,0 +1,29 @@
+@import url("./components/index.css");
+
+body {
+  font-family: sans-serif;
+  .content {
+    margin: 0 auto;
+    width: 600px;
+  }
+  .loader-wrapper {
+    display: flex;
+    height: 60px;
+    align-items: center;
+    &.center {
+      place-content: center;
+    }
+    &.main {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, 50%);
+    }
+  }
+
+  .disabled {
+    color: gray;
+    pointer-events: none;
+    text-decoration: none;
+  }
+}
